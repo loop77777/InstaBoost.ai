@@ -1,0 +1,1 @@
+// OpenAI caption prompt setup

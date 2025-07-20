@@ -1,0 +1,83 @@
+
+📱 InstaBoost.ai — Real Growth Instagram Assistant
+
+🔥 App Summary
+InstaBoost.ai is a mobile-first app that helps users grow their Instagram followers and likes organically using smart tools: AI caption generators, reel trend analyzers, profile audits, and optional browser-based automation like auto-follow suggestions.
+
+✅ Features
+
+1. Meta OAuth Login
+- Secure authentication for IG Business/Creator accounts
+- Graph API token handling
+
+2. Hashtag + Caption Generator
+- OpenAI-powered content generation
+- Topic-based viral captions
+
+3. Post Analyzer
+- Uses IG post metrics
+- Shows best posting time, reel views, saves
+
+4. Auto-Follow Engine (Optional)
+- Puppeteer-based headless browser script
+- Follows real users from target profile's followers list with delay + rotation
+
+5. Reel Trend Radar
+- Fetches top trending audio
+- Shows relevant hashtags for niche
+
+6. Growth Dashboard
+- Followers chart, engagement rate
+- Track unfollowers & ghost followers
+
+7. Collab Finder
+- Suggests mutual-growth creators
+- Pro-only feature
+
+📂 Project Structure
+
+instaboost-ai/
+├── client/               // React Native frontend
+├── server/               // Express.js backend
+├── ai/                   // OpenAI prompt templates
+├── database/             // MongoDB/PostgreSQL models
+├── scripts/              // Puppeteer automation
+├── .env                  // Environment variables
+
+🧠 Technologies Used
+- React Native (Expo)
+- Node.js + Express
+- OpenAI API
+- Instagram Graph API
+- MongoDB/PostgreSQL
+- Puppeteer (optional)
+- Tailwind RN / React Navigation
+
+📅 MVP 4-Week Roadmap
+
+| Week | Tasks |
+|------|-------|
+| 1 | Setup Meta OAuth + React Native boilerplate |
+| 2 | Add OpenAI caption gen + hashtag modules |
+| 3 | Build insights dashboard + post analyzer |
+| 4 | Add Puppeteer script + finalize UI polish |
+
+🔐 Legal Note
+- Full auto-following is against Meta policy
+- Puppeteer scripts must run separately from app (external automation layer)
+- Recommend including disclaimer
+
+🔜 Future Add-ons
+- Drag & drop content calendar
+- Paid plan integration (Stripe)
+- Canva-like reel editor
+- Influencer collab marketplace
+
+🌐 Monetization Ideas
+- Freemium model (free tools + pro collab access)
+- AI credits for content generation
+- Premium caption packs
+- Ads/brand deal integration
+
+📎 This document is part of: InstaBoost_AI_Boilerplate.zip
+Made for: Deepanshu Malviya ✨
