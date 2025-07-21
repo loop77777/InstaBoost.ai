@@ -1,0 +1,21 @@
+{
+  "name": "instaboost-analytics",
+  "version": "1.0.0",
+  "description": "Instagram growth analytics scripts for InstaBoost.ai (ToS Compliant)",
+  "main": "growthAnalyzer.js",
+  "scripts": {
+    "start": "node growthAnalyzer.js",
+    "analyze": "node growthAnalyzer.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["instagram", "analytics", "growth", "insights"],
+  "author": "Deepanshu Malviya",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

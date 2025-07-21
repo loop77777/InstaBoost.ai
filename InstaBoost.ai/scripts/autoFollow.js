@@ -1,1 +1,0 @@
-// Puppeteer auto-follow logic
